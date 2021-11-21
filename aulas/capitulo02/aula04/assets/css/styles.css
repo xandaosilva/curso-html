@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    color: #046868;
+}
+
+a{
+    color: #046868;
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+
+a:visited{
+    color: cadetblue;
+}
+
+ul li{
+    list-style-type: circle;
+}
+
+ol li{
+    list-style-type: upper-roman;
+}
