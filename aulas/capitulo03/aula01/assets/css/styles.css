@@ -1,0 +1,23 @@
+body{
+    font-family: sans-serif;
+    font-size: 22px;
+    width: 700px;
+    margin: auto;
+    background-image: url("../img/background.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: repeat;
+    background-position: right bottom;
+}
+
+p{
+    line-height: 1.5;
+}
+
+.img-html{
+    float: left;
+}
+
+.img-css{
+    float: right;
+}
