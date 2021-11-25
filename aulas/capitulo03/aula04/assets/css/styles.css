@@ -45,3 +45,58 @@ body{
     font-size: 12px;
     letter-spacing: 5px;
 }
+
+.portifolio{
+    padding: 50px 100px;
+    text-align: center;
+}
+
+.portifolio h1{
+    font-size: 36px;
+    color: #252525;
+}
+
+.portifolio p{
+    font-size: 16px;
+    line-height: 2;
+    color: #555;
+}
+
+.gallery{
+    color: #555;
+    padding: 0 100px 50px 100px;
+    overflow: auto;
+}
+
+.gallery-card{
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+.gallery-title{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.about{
+    background-color: #003d52;
+    background-image: url("../img/bg_detalhe.png");
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding: 100px;
+    color: white;
+}
+
+.about h2{
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.about p{
+    line-height: 1.5;
+    width: 70%;
+}
