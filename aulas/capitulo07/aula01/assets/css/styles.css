@@ -1,7 +1,18 @@
-#radius{
-    background: orange;
+h1{
+    text-align: center;
+}
+
+div{
+    background: aqua;
     width: 200px;
     height: 200px;
     margin: 50px auto;
+}
+
+#radius{
     border-radius: 100px;
+}
+
+#shadow{
+    box-shadow: 10px 10px 10px black;
 }
