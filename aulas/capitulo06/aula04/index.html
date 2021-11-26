@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula formulário - entrada de dados</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="" class="" method="get">
+        <fieldset>
+            <legend>Dados pessoais</legend>
+
+            <label for="email">Email</label><br>
+            <input type="email" name="email" id="email" required> <br><br>
+
+            <label for="filhos">Número de filhos</label><br>
+            <input type="number" name="filhos" id="filhos" min="0" max="10" required> <br><br>
+
+            <label for="dataNascimento">Data de nascimento</label><br><br>
+            <input type="date" name="dataNascimento" id="dataNascimento" required> <br><br>
+
+            <label for="sexo">Sexo :</label>
+            <label>
+                <input type="radio" name="sexo" id="sexo" value="masculino">
+                Masculino
+            </label>
+            <label>
+                <input type="radio" name="sexo" id="sexo" value="feminino">
+                Feminino
+            </label>
+
+            <br><br>
+            <label for="estado">Estado</label>
+            <select name="estado" id="estado">
+                <option value="ES">Espírito Santo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio Janeiro</option>
+            </select>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Área de interesse</legend>
+            <label><input type="checkbox" name="html" value="html">HTML 5</label>
+            <label><input type="checkbox" name="css" value="css">CSS 3</label>
+            <label><input type="checkbox" name="javascript" value="javascript">JavaScript</label>
+            <label><input type="checkbox" name="java" value="java">Java</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="mensagem" id="mensagem" cols="160" rows="10"></textarea>
+
+            <textarea name="contrato" id="contrato" cols="160" rows="10" readonly disabled>Aqui está os termos de serviço</textarea>
+            <label><input type="checkbox" name="aceito" value="aceito">Li e aceito os termos</label>
+
+            <br><br>
+            <input type="range">
+            <input type="time">
+            <input type="color">
+
+        </fieldset>
+
+
+
+        <input type="submit" value="Cadastrar">
+        <input type="button" value="Cadastro">
+        <input type="reset" value="Limpar formulário">
+    </form>
+</body>
+</html>
