@@ -1,6 +1,8 @@
 /*@font-face{
     font-family: "nome da fonte";
-    src: url("caminho da fonte");
+    src: url("caminho da fonte"), 
+         url("caminho da fonte"),
+         url("caminho da fonte");
 }*/
 
 body{
