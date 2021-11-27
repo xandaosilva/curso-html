@@ -296,6 +296,14 @@ textarea{
     float: left;
 }
 
-.col-address:nth-child(3n-1){
-    margin: 0 2%;
+.col-address:nth-child(3n-2){
+    margin-right: 2%;
+}
+
+.col-address:nth-child(3n){
+    margin-left: 2%;
+}
+
+.col-form + .col-address, .col-address + .col-form{
+    margin-left: 2%;
 }
