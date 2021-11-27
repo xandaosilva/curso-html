@@ -109,6 +109,29 @@ li{
     color: #49bf9d;
 }
 
+input, label, textarea{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input, textarea{
+    background: #ccc;
+    padding: 15px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    margin-bottom: 15px;
+}
+
+input:focus, textarea:focus{
+    border: 3px solid #49bf9d;
+    outline: none;
+}
+
+textarea{
+    height: 10em;
+}
+
 .button-default{
     background-color: #49bf9d;
     border: 2px solid #49bf9d;
@@ -117,6 +140,7 @@ li{
     border-radius: 5px;
     font-size: 0.8em;
     display: inline-block;
+    width: auto;
 }
 
 .button-default-stroke{
@@ -130,6 +154,10 @@ li{
 .button-default-full{
     display: block;
     text-align: center;
+}
+
+.button-default-big{
+    font-size: 1em;
 }
 
 .table{
@@ -214,6 +242,25 @@ li{
 }
 
 .col{
-    width: 50%;
+    width: 48.5%;
+    float: left;
+}
+
+.col:first-child{
+    margin-right: 1.5%;
+}
+
+.col:last-child{
+    margin-left: 1.5%;
+}
+
+.col-form{
+    width: 65%;
+    float: left;
+}
+
+.col-address{
+    width: 32%;
+    margin-left: 3%;
     float: left;
 }
