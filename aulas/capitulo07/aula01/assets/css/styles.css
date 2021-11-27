@@ -1,3 +1,8 @@
+/*@font-face{
+    font-family: "nome da fonte";
+    src: url("caminho da fonte");
+}*/
+
 body{
     background-image: linear-gradient(to left top, rgb(48, 48, 48), rgb(27, 27, 27));
 }
