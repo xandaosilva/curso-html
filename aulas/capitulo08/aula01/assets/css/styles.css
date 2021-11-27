@@ -19,6 +19,10 @@ p{
     margin: 0 0 2em;
 }
 
+img{
+    max-width: 100%;
+}
+
 h1, h2, h3, h4, h5, h6{
     color: #787878;
     font-weight: normal;
@@ -164,6 +168,10 @@ textarea{
     font-size: 1em;
 }
 
+.img-link{
+    border: 0;
+}
+
 .table{
     width: 100%;
     margin: 0 0 2em 0;
@@ -230,6 +238,11 @@ textarea{
     color: inherit;
 }
 
+.main-header-link img{
+    border-radius: 50%;
+    overflow: hidden;
+}
+
 .main-header-link:hover{
     color: #49bf9d;
 }
@@ -239,6 +252,11 @@ textarea{
     margin-left: 35%;
     padding: 124px 54px 72px;
     box-sizing: border-box;
+}
+
+.recent-works-card img{
+    border-radius: 10px;
+    overflow: hidden;
 }
 
 .row{
