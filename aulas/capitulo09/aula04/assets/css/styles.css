@@ -1,0 +1,15 @@
+div p:nth-of-type(3){
+    color: lightseagreen;
+}
+
+.destaque{
+    background: #ddd;
+}
+
+.destaque:first-child{
+    color: blue;
+}
+
+p:last-child{
+    text-align: center;
+}
