@@ -1,0 +1,22 @@
+div{
+    border: solid 3px goldenrod;
+    padding: 25px;
+    position: relative;
+    margin: 25px;
+}
+
+div:before{
+    content: "Texto de boas vindas ";
+    background: goldenrod;
+}
+
+div:after{
+    content: "";
+    background: goldenrod;
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
