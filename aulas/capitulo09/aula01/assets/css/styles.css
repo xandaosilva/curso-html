@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+article:nth-child(1) a{
+    color: cyan;
+}
+
+article:nth-child(3) > p{
+    color: aquamarine;
+}
+
+article:nth-child(5) h3 + p{
+    color: aqua;
+}
+
+article:nth-child(7) h3 ~ p{
+    color: gold;
+}
+
+article:not(.destaque){
+    color: cyan;
+}
+
+.destaque{
+    background: silver;
+    color: black;
+}
+
+a[href="#"]{
+    opacity: 0.2;
+}
+
+a[href^="https"]{
+    color: cyan;
+}
+
+a[title]{
+    color: aquamarine;
+}
+
+a[href$=".pdf"]{
+    text-decoration: none;
+}
