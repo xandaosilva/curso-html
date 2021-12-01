@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width">
+    <title>Tag picture</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+<body>
+    <h1>Picture</h1>
+
+    <picture>
+        <source media="(min-width: 480px)" sizes="33vw" srcset="./assets/img/1280.jpg 1280w, 
+                        ./assets/img/960.jpg 960w, ./assets/img/480.jpg 480w">
+        
+        <source sizes="100vw" srcset="./assets/img/822_mob.jpg 822w, ./assets/img/640_mob.jpg 640w, 
+                        ./assets/img/320_mob.jpg 320w">
+        <img src="./assets/img/1280.jpg" alt="Descrição da imagem">
+    </picture>
+</body>
+</html>
