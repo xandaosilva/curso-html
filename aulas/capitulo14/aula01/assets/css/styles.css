@@ -117,3 +117,14 @@
     align-items: flex-start;
     align-self: center;
 }
+
+.flexbox:nth-child(14){
+    justify-content: center;
+    align-items: flex-end;
+    flex-direction: column;
+    height: 500px;
+}
+
+.flexbox:nth-child(14) div{
+    flex-basis: 70px;
+}
