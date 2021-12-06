@@ -1,0 +1,18 @@
+#grupo-cores{
+    padding: 15px;
+    background: url("../img/tile.png");
+    counter-reset: contador;
+}
+
+#grupo-cores div{
+    width: 80%;
+    height: 150px;
+    border: 10px solid rgba(0,0,0,.5);
+    margin: 20px auto;
+    padding: 15px;
+    counter-increment: contador;
+}
+
+#grupo-cores div:before{
+    content: "[" counter(contador) "]";
+}
