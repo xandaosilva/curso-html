@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+    font-size: 20px;
+    height: 100%;
+    margin: 0;
+}
+
+#externa{
+    background: cyan;
+    width: 80%;
+    height: 80vh;
+}
+
+#interna{
+    background: darkcyan;
+    width: 50%;
+    height: 80%;
+}
