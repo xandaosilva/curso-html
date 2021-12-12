@@ -1,0 +1,45 @@
+h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: darkcyan;
+}
+
+.gridContainer{
+    width: 90%;
+    background: #ccc;
+    margin: 30px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 100px 50px 1fr 50px;
+    grid-template-areas: "header header header" "nav nav nav" "main main aside" "footer footer footer";
+    grid-gap: 20px;
+}
+
+.gridItem{
+    background-color: darkcyan;
+    padding: 15px;
+    font-family: sans-serif;
+    color: white;
+}
+
+.header{
+    grid-area: header;
+}
+
+.nav{
+    grid-area: nav;
+}
+
+.aside{
+    grid-area: aside;
+}
+
+.main{
+    grid-area: main;
+    min-height: 200px;
+}
+
+.footer{
+    grid-area: footer;
+}
