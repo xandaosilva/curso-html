@@ -6,7 +6,7 @@ function mostrarInfo(parametro){
 }
 
 function iniciarCalculo(operador){
-    var primeiroNumero = document.querySelector("#container-resposta").textContent;
+    var primeiroNumero = parseFloat(document.querySelector("#container-resposta").textContent);
     var segundoNumero = parseFloat(prompt("Digite um número"));
     var resposta = calcular(primeiroNumero, segundoNumero, operador);
     mostrarInfo(resposta);
