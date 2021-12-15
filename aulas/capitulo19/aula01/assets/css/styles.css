@@ -1,6 +1,13 @@
 body{
     font-size: 30px;
     font-family: sans-serif;
+    color: darkcyan;
+}
+
+h1{
     text-align: center;
+}
+
+hr{
     color: darkcyan;
 }
