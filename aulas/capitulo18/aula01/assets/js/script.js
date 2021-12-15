@@ -1,9 +1,9 @@
-x = parseInt(prompt(("Digite o primeiro número: ")));
+var x = parseInt(prompt(("Digite o primeiro número: ")));
 
 while(x === "")
     x = parseInt(prompt(("Digite o primeiro número: ")));
 
-y = parseInt(prompt(("Digite o segundo número: ")));
+var y = parseInt(prompt(("Digite o segundo número: ")));
 
 while(y === "")
     y = parseInt(prompt(("Digite o segundo número: ")));
