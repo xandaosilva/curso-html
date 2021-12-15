@@ -1,0 +1,31 @@
+body{
+    font-family: sans-serif;
+    color: darkcyan;;
+}
+
+h1{
+    text-align: center;
+    font-size: 30px;
+}
+
+button{
+    background-color: darkcyan;
+    color: white;
+    padding: 10px;
+    width: 20%;
+    margin-left: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.container-btn{
+    width: 80%;
+    margin: auto;
+    padding: 10px;
+}
+
+#container-resposta{
+    width: 80%;
+    margin: auto;
+    font-size: 25px;
+}
