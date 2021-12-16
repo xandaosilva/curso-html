@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+    color: darkcyan;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+#output{
+    width: 90%;
+    margin: auto;
+    font-size: 22px;
+}
