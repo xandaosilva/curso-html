@@ -1,0 +1,18 @@
+body{
+    font-family: sans-serif;
+    color: darkcyan;
+}
+
+h1{
+    font-size: 30px;
+    text-align: center;
+}
+
+hr{
+    color: darkcyan;
+}
+
+#output{
+    padding: 10px;
+    line-height: 1.5;
+}
