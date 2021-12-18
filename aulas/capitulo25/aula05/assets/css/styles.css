@@ -1,0 +1,13 @@
+body{
+    font-family: sans-serif;
+    color: darkcyan;
+}
+
+h1, h2{
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    line-height: 1.5;
+}
