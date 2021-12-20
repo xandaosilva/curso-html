@@ -1,0 +1,25 @@
+body{
+    font-family: sans-serif;
+    padding-top: 150px;
+}
+
+h1{
+    color: darkcyan;
+    text-align: center;
+    font-size: 30px;
+}
+
+.menu{
+    height: 150px;
+    background: cyan;
+    width: 100%;
+    transition: all 1s;
+    position: fixed;
+    top: 0;
+    left: 0;
+    opacity: .6;
+}		
+.fx .menu{
+    height: 50px;
+    opacity: 1;
+}
