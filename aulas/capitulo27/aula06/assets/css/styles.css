@@ -1,0 +1,19 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    color: darkcyan;
+    text-align: center;
+    font-size: 30px;
+}
+
+ul{
+    list-style: upper-roman;
+}
+
+ul li{
+    color: darkcyan;
+    font-weight: bold;
+    text-transform: uppercase;
+}
