@@ -1,0 +1,16 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    color: darkcyan;
+    text-align: center;
+}
+
+.btn{
+    background: darkcyan;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
