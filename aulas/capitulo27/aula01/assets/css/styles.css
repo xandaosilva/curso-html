@@ -1,0 +1,24 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 30px;
+    color: darkcyan;
+}
+
+.btn{
+    background: darkcyan;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+#d1{
+    background: aqua;
+    padding: 25px;
+}
+
+span{
+    background: goldenrod;
+}
