@@ -26,6 +26,10 @@ img{
     width: 100%;
 }
 
+.js .header__nav{
+    transition: max-height 1s;
+}
+
 .logo-text{
     text-align: right;
     text-transform: uppercase;
