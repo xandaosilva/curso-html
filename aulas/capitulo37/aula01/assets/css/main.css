@@ -41,7 +41,19 @@ img{
 }
 
 .header__btnMenu{
+    float: right;
+    margin: 1.5em;
+    background: transparent;
+    border: none;
+    font-size: 14px;
+}
 
+.header__btnMenu fas{
+    float: right;
+    margin: 1.5em;
+    background: transparent;
+    border: none;
+    font-size: 18px;
 }
 
 .header__nav{
