@@ -1,0 +1,23 @@
+*{
+    background-color: black;
+    font-family: sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-size: 1.6rem;
+    font-style: italic;
+}
+
+h1, h2{
+    color: cornflowerblue;
+}
+
+p{
+    text-align: left;
+    font-size: 1.2rem;
+    color: darkgrey;
+}
