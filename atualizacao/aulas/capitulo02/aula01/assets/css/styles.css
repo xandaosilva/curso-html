@@ -1,5 +1,4 @@
 *{
-    background-color: black;
     font-family: sans-serif;
 }
 
@@ -19,5 +18,10 @@ h1, h2{
 p{
     text-align: left;
     font-size: 1.2rem;
-    color: darkgrey;
+}
+
+#different-text{
+    font-size: 0.8rem;
+    text-decoration: underline;
+    color: blue;
 }

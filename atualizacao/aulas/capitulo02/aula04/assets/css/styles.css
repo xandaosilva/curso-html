@@ -1,0 +1,21 @@
+h1{
+    width: 25%;
+    border: solid 2px blue;
+}
+
+p{
+    background-color: #ccc;
+    width: 500px;
+}
+
+a{
+    background-color: yellow;
+    padding: 15px;
+    display: inline-block;
+}
+
+strong{
+    padding: 20px;
+    background-color: #cd7777;
+    display: block;
+}
