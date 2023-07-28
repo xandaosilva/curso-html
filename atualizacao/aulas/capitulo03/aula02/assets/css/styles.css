@@ -1,0 +1,9 @@
+body{
+    background: url(../img/tile-pattern.png) #4e4e4e fixed;
+    color: white;
+}
+
+p{
+    font-size: 2rem;
+    line-height: 2;
+}
