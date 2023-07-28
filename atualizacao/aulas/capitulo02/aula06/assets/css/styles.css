@@ -1,0 +1,19 @@
+*{
+    font-family: sans-serif;
+    background-color: black;
+}
+
+h1{
+    color: antiquewhite;
+}
+
+ul li{
+    color: darkcyan;
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+ol li{
+    color: lightcyan;
+    list-style: upper-roman outside;
+}

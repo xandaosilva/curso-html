@@ -1,0 +1,79 @@
+*{
+    font-family: Montserrat;
+}
+
+body{
+    width: 90%;
+    margin: auto;
+}
+
+h1, h2{
+    color: #061761;
+    background-color: #acafd4;
+}
+
+h1{
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+h2{
+    text-align: left;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+    border-bottom: solid 1px blue;
+    margin-top: 1.8rem;
+    margin-bottom: 1.2rem;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+li{
+    list-style-position: inside;
+}
+
+a{
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+.description{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+.subtitle{
+    margin-top: 0;
+    background-color: #c6c8e8;
+    color: #061761;
+}
+
+.menu{
+    text-align: right;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu a{
+    padding: 0.6rem;
+    color: #061761;
+    background-color: #acafd4;
+    display: block;
+}
+
+.menu a:hover{
+    text-decoration: none;
+    background-color: #061761;
+    color: #acafd4;
+}
