@@ -84,3 +84,14 @@ article h2{
     margin-top: 0;
 }
 
+.btn{
+    background-color: #cdc7c3;
+    display: block;
+    padding: 12px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+    width: fit-content;
+    text-align: center;
+}
