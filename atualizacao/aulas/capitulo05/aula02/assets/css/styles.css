@@ -1,0 +1,48 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.flexbox{
+    height: 250px;
+    border: solid 3px cyan;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.flexbox div{
+    border: solid 2px darkcyan;
+    width: 300px;
+    margin: 15px;
+}
+
+.flex-container1{
+    justify-content: flex-end;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.flex-container1 div{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container2{
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+.flex-container2 div{
+    background-color: aqua;
+    width: 50px;
+    height: 50px;
+}
+
+.flex-container2 .div2{
+    flex-basis: 300px;
+}

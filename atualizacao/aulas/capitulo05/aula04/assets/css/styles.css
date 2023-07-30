@@ -1,0 +1,36 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.flexbox{
+    height: 250px;
+    border: solid 3px cyan;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.flexbox div{
+    border: solid 2px darkcyan;
+    width: 300px;
+    margin: 15px;
+}
+
+.flex-container1{
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.flex-container1 div{
+    background-color: aqua;
+    flex-basis: 50px;
+    margin: 0;
+}
+
+.flex-container1 .div1{
+    order: 2;
+}
