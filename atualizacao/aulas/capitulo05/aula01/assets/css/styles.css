@@ -1,0 +1,56 @@
+body{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.flexbox{
+    height: 250px;
+    border: solid 3px cyan;
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.flexbox div{
+    border: solid 2px darkcyan;
+    width: 300px;
+    margin: 15px;
+}
+
+.flex-container1{
+    flex-flow: row nowrap;
+    /* flex-direction: row-reverse;
+    flex-wrap: nowrap; */
+}
+
+.flex-container2{
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.flex-container2 div{
+    width: 30px;
+}
+
+.flex-container3{
+    justify-content: space-around;
+    align-items: center;
+}
+
+.flex-container3 div{
+    width: 30px;
+    margin: 0;
+}
+
+.flex-container4{
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.flex-container4 div{
+    width: 30px;
+    margin: 0;
+}
