@@ -1,0 +1,53 @@
+:root{
+    --bg-color: coral;
+    --div-width: 200px;
+    --div-height: 200px;
+    --bd-radius: 50%;
+    --shadow-div: -10px -10px 20px black;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+.div1{
+    background-color: var(--bg-color);
+    width: var(--div-width);
+    height: var(--div-height);
+    border-radius: var(--bd-radius);
+    margin: auto;
+}
+
+.div2{
+    background-color: var(--bg-color);
+    width: var(--div-width);
+    height: var(--div-height);
+    border-radius: var(--bd-radius);
+    margin: auto;
+    box-shadow: var(--shadow-div);
+}
+
+.text-shadow{
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: -10px 10px 0 rgba(0, 0, 0, 0.3);
+    font-weight: bold;
+    font-size: 3em;
+}
+
+.text-outline{
+    background-color: var(--bg-color);
+    width: var(--div-width);
+    height: var(--div-height);
+    margin: auto;
+    outline: solid 4px darkcyan;
+    box-sizing: border-box;
+}
+
+.text-outline:hover{
+    outline: solid 10px cyan;
+}
