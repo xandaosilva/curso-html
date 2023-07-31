@@ -20,3 +20,14 @@ h1{
 .third-text{
     font-size: 50%;
 }
+
+.text-fourth{
+    font-size: 0.8rem;
+}
+
+.text-div{
+    width: 50%;
+    background-color: darkcyan;
+    color: #ccc;
+    margin-left: 10%;
+}
