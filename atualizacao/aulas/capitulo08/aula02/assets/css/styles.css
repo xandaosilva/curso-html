@@ -1,0 +1,43 @@
+*{
+    font-family: sans-serif;
+}
+
+.padding-em{
+    background-color: black;
+    color: #ddd;
+    padding: 1em;
+}
+
+.padding-em p{
+    background-color: transparent;
+    margin: 0;
+}
+
+.viewport-container{
+    font-size: 1.7rem;
+    width: 90vw;
+    height: 90vh;
+    margin: auto;
+}
+
+.viewport{
+    width: 90%;
+    height: 90%;
+    background-color: darkcyan;
+}
+
+.em{
+    width: 20em;
+    padding: 1em;
+    margin: 1em;
+    font-size: 1.6rem;
+    background-color: lightblue;
+}
+
+.ch{
+    width: 20ch;
+    padding: 1ch;
+    margin: 1ch;
+    font-size: 1.6ch;
+    background-color: lightcoral;
+}
