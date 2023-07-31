@@ -1,0 +1,27 @@
+:root{
+    --text-color: darkcyan;
+    --text-font-size: 1.1rem;
+    --background-text: #ccc;
+    --width-container: 90%;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+    color: var(--text-color);
+}
+
+.container{
+    width: var(--width-container);
+    margin: auto;
+}
+
+p{
+    color: var(--text-color);
+    font-size: var(--text-font-size);
+    background-color: var(--background-text);
+    padding: 20px;
+}
