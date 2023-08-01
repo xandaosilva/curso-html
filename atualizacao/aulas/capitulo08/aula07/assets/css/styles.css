@@ -1,0 +1,24 @@
+*{
+    font-family: sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+div{
+    background-color: lightcoral;
+    width: 200px;
+    height: 150px;
+    margin: 100px auto;
+    /* transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0.5s; */
+    transition: all 1s linear 0.5s;
+}
+
+div:hover{
+    width: 400px;
+    height: 300px;
+}
