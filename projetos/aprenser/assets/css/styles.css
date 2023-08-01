@@ -1,3 +1,39 @@
-*{
-    font-family: "Montserrat";
+:root{
+    --primary-color: #fed001;
+    --text-light-color: #fafafa;
+    --bg-light-color: #fafafa;
+    --bg-dark-color: #2a2a2a;
+    --bg-dark-blue-color: #003464;
+}
+
+html{
+    font: 62.5% 100 "Montserrat";
+}
+
+p, a{
+    font-size: 1.6rem;
+}
+
+.upper{
+    text-transform: uppercase;
+}
+
+.wrapperContainer-light{
+    background-color: var(--bg-light-color);
+}
+
+.wrapperContainer-dark{
+    background-color: var(--bg-dark-color);
+    color: var(--text-light-color);
+}
+
+.wrapperContainer-dark2{
+    background-color: var(--bg-dark-blue-color);
+    color: var(--text-light-color);
+}
+
+.container{
+    /* width: 127.6rem; */
+    max-width: 1276px;
+    margin: auto;
 }
