@@ -1,0 +1,22 @@
+*{
+    font-family: sans-serif;
+}
+
+table{
+    width: 80%;
+    margin: auto;
+    background-color: beige;
+    border-collapse: collapse;
+}
+
+th{
+    background-color: rgb(190, 190, 155);
+    border: solid 2px rgb(117, 117, 95);
+    padding: 16px;
+}
+
+td{
+    border: solid 2px black;
+    text-align: center;
+    padding: 10px;
+}
