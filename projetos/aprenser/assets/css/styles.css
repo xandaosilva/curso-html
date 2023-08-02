@@ -6,57 +6,9 @@
     --bg-dark-blue-color: #003464;
 }
 
-html{
-    font: 400 62.5% "Inter" sans-serif;
-}
-
-p, a{
-    font-size: 1.6rem;
-}
-
-nav a{
-    color: inherit;
-}
-
-.upper{
-    text-transform: uppercase;
-}
-
-.wrapperContainer-light{
-    background-color: var(--bg-light-color);
-}
-
-.wrapperContainer-dark{
-    background-color: var(--bg-dark-color);
-    color: var(--text-light-color);
-}
-
-.wrapperContainer-dark2{
-    background-color: var(--bg-dark-blue-color);
-    color: var(--text-light-color);
-}
-
-.container{
-    max-width: 127.6rem;
-    margin: auto;
-}
-
-.header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: var(--primary-color);
-    padding: 2rem 0;
-}
-
-.header_nav ul{
-    display: flex;
-    gap: 0.6rem;
-    list-style: none;
-}
-
-.header_nav a{
-    text-decoration: none;
-    padding: 0.75em 1.15em;
-    border: solid 1px;
+*, *:after, *:before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font: "Inter" 62.5% 400;
 }
