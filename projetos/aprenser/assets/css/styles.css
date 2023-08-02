@@ -7,11 +7,15 @@
 }
 
 html{
-    font: 62.5% 100 "Montserrat";
+    font: 400 62.5% "Inter" sans-serif;
 }
 
 p, a{
     font-size: 1.6rem;
+}
+
+nav a{
+    color: inherit;
 }
 
 .upper{
@@ -33,7 +37,26 @@ p, a{
 }
 
 .container{
-    /* width: 127.6rem; */
-    max-width: 1276px;
+    max-width: 127.6rem;
     margin: auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: var(--primary-color);
+    padding: 2rem 0;
+}
+
+.header_nav ul{
+    display: flex;
+    gap: 0.6rem;
+    list-style: none;
+}
+
+.header_nav a{
+    text-decoration: none;
+    padding: 0.75em 1.15em;
+    border: solid 1px;
 }
