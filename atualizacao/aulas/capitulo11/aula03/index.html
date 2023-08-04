@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Informações pessoais</legend>
+            <div>
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" placeholder="Digite o seu nome" required>
+            </div>
+            <div>
+                <label for="age">Idade</label>
+                <input type="number" name="age" id="age" placeholder="Digite a sua idade" min="0" required>
+            </div>
+            <div>
+                <label for="birthdayDate">Data de aniverśario</label>
+                <input type="date" name="birthdayDate" id="birthdayDate" placeholder="Informe a data de aniverśario" required>
+            </div>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite o seu email" required>
+            </div>
+            <div>
+                <label for="password">Senha</label>
+                <input type="password" name="password" id="password" placeholder="Digite a sua senha" required>
+                <label for="confirmPassword">Confirmação de senha</label>
+                <input type="password" name="confirmPassword" id="confirmPassword" placeholder="Confirme a sua senha" required>
+            </div>
+            <div>
+                <label for="activity">Atividade extra</label>
+                <label>
+                    <input type="radio" name="activity" id="activity" value="yes"><span>Sim</span>
+                </label>
+                <label>
+                    <input type="radio" name="activity" id="activity" value="no"><span>Não</span>
+                </label>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Áreas de interesse</legend>
+            <div>
+                <label><input type="checkbox" name="areas" value="html">Html</label>
+                <label><input type="checkbox" name="areas" value="css">Css</label>         
+                <label><input type="checkbox" name="areas" value="javascript">JavaScript</label>
+                <label><input type="checkbox" name="areas" value="python">Python</label>
+                <label><input type="checkbox" name="areas" value="java">Java</label>
+            </div>
+            <div>
+                <div>
+                    <label for="">Selecione o framework de sua preferência</label>
+                    <select name="" id="">
+                        <optgroup label="Frontend">
+                            <option disabled selected>Selecione o framework</option>
+                            <option value="react">React</option>
+                            <option value="vue">Vue</option>
+                            <option value="angular">Angular</option>
+                        </optgroup>
+                        <optgroup label="Backend">
+                            <option value="spring">Spring</option>
+                            <option value="django">Django</option>
+                            <option value="rubyOnRails">Ruby on rails</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <div>
+                    <label for="">Selecione a linguagem de sua preferência</label>
+                    <input type="text" list="languages" placeholder="Selecione a linguagem">
+                    <datalist id="languages">
+                        <option value="C">
+                        <option value="cpp">
+                        <option value="csharp">
+                        <option value="php">
+                        <option value="python">
+                        <option value="java">
+                        <option value="javascript">
+                    </datalist>
+                </div>
+            </div>
+        </fieldset>
+        <fieldset>
+            <legend>Mensagem</legend>
+            <textarea name="message" id="message" cols="30" rows="10"></textarea>
+            <br>
+            <input type="file" name="file" id="file">
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+            <input type="button" value="Teste">
+            <button type="button">Botão para teste</button>
+        </div>
+    </form>
+</body>
+</html>
