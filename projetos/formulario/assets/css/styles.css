@@ -40,6 +40,22 @@ input, textarea{
     padding: 0.75em;
     margin: 0.5em 0 2.5em;
     color: #fff;
+    outline: 0;
+}
+
+input:focus, textarea:focus{
+    /* background-color: #fff;
+    color: black; */
+    border-bottom: 2px solid #8e999a;
+    background-color: #2a2727;
+}
+
+input:invalid:focus, textarea:invalid:focus{
+    border-bottom: solid 2px #ff000d;
+}
+
+input:valid:focus, textarea:valid:focus{
+    border-bottom: solid 2px #0ec72a;
 }
 
 legend{
