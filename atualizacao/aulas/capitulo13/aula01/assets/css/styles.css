@@ -1,0 +1,32 @@
+*{
+    font-family: sans-serif;
+}
+
+article{
+    outline: solid 4px darkviolet;
+}
+
+article a{
+    color: darkcyan;
+}
+
+article a > b{
+    color: burlywood;
+}
+
+h3 + p{
+    background-color: cadetblue;
+}
+
+hr ~ p{
+    border: dashed 1px darkcyan;
+}
+
+.destaque{
+    padding-left: 2rem;
+}
+
+p:not(.destaque){
+    background-color: aqua;
+}
+

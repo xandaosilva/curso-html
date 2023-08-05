@@ -1,0 +1,19 @@
+*{
+    font-family: sans-serif;
+}
+
+a[href="#"]:not(.link-ok){
+    color: darksalmon;
+}
+
+a[href^="http"]{
+    color: darkcyan;
+}
+
+a[href$=".pdf"]{
+    color: crimson;
+}
+
+a[target]{
+    text-decoration: none;
+}
