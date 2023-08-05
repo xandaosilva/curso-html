@@ -1,0 +1,34 @@
+*{
+    font-family: sans-serif;
+}
+
+a{
+    display: inline-block;
+    margin-bottom: 1em;
+}
+
+a[target="_blank"]::after{
+    content: url(../img/newWindow-icon.png);
+    margin-left: 0.5rem;
+}
+
+a[href$=".pdf"]::before{
+    content: url(../img/pdf-icon.gif);
+    margin-right: 0.5rem;
+}
+
+input[type="checkbox"]:checked+label{
+    color: green;
+}
+
+input[type="checkbox"]:not(:disabled)+label{
+    color: red;
+}
+
+input[type="checkbox"]:disabled+label{
+    color: blue;
+}
+
+li li:nth-child(3){
+    background-color: yellow;
+}
