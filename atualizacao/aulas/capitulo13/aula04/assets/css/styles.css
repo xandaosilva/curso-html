@@ -1,0 +1,35 @@
+*{
+    font-family: sans-serif;
+}
+
+div{
+    border: solid 4px darkblue;
+    padding: 1em;
+    text-align: justify;
+    position: relative;
+}
+
+p{
+    margin: 0;
+}
+
+div::after{
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-color: darkblue;
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+div::before{
+    content: url(https://via.placeholder.com/64/0000FF/ffffff);
+    float: left;
+    margin-right: 1em;
+}
+
+p::before, p::after{
+    content: " ### ";
+}
