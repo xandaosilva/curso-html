@@ -7,7 +7,20 @@
     <link rel="stylesheet" href="assets/css/styles.css">
 </head>
 <body>
-    <h1>Cadastro</h1>
-    <a href="index.html">Login</a>
+    <form action="#" method="get" autocomplete="off" class="form">
+        <fieldset class="form__fieldset">
+            <legend class="form__title">Cadastre-se</legend>
+            <label for="user" class="form__label">Usuário</label>
+            <input type="text" name="user" id="user" class="form__input" required>
+            <label for="email" class="form__label">Email</label>
+            <input type="email" name="email" id="email" class="form__input" required>
+            <label for="password" class="form__label">Senha</label>
+            <input type="password" name="password" id="password" class="form__input" required>
+            <div class="form__action">
+                <input type="submit" value="Cadastre-se" class="btn btn-primary">
+                <p class="form__action__aside">Já possui cadastro? <a href="index.html" class="form_action__link">Faça login</a></p>
+            </div>
+        </fieldset>
+    </form>
 </body>
 </html>
