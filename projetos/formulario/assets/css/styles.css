@@ -44,8 +44,6 @@ input, textarea{
 }
 
 input:focus, textarea:focus{
-    /* background-color: #fff;
-    color: black; */
     border-bottom: 2px solid #8e999a;
     background-color: #2a2727;
 }
