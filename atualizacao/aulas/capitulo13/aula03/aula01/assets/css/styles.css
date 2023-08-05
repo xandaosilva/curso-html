@@ -1,0 +1,35 @@
+html{
+    font-family: sans-serif;
+}
+
+p:first-child{
+    color: blue;
+}
+
+p:last-child{
+    color: darkgreen;
+}
+
+p:nth-child(3){
+    background-color: bisque;
+}
+
+p:first-of-type{
+    background-color: darkturquoise;
+}
+
+p:last-of-type{
+    background-color: darkslateblue;
+}
+
+p:nth-of-type(2){
+    text-decoration: underline;
+}
+
+li:nth-child(odd){
+    background-color: darkslateblue;
+}
+
+li:nth-child(even){
+    background-color: darkturquoise;
+}
