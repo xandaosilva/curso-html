@@ -1,0 +1,27 @@
+*{
+    font-family: sans-serif;
+}
+
+div{
+    outline: solid 1px #888;
+    width: 300px;
+    margin: 0.5em auto;
+}
+
+p{
+    width: 50%;
+}
+
+.destaque{
+    background-color: burlywood;
+}
+
+.div1 .destaque{
+    transform: translate(50px, -50px);
+}
+
+.div2 .destaque{
+    position: relative;
+    top: -50px;
+    left: 50px;
+}
