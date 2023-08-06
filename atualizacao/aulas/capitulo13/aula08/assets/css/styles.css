@@ -1,0 +1,12 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p a{
+    color: darkcyan;
+    background-color: aquamarine;
+}
+
+p:has(a){
+    background-color: #bbb;
+}

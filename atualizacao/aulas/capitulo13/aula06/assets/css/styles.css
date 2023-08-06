@@ -1,0 +1,55 @@
+*{
+    font-family: sans-serif;
+}
+
+button{
+    background-color: #7a7979;
+    color: #fff;
+    border: none;
+    padding: 1em;
+    cursor: pointer;
+}
+
+button:disabled{
+    opacity: 0.5;
+}
+
+p:empty::before{
+    content: "Parágrafo vazio";
+}
+
+a:hover, a:focus{
+    background-color: darkcyan;
+}
+
+input[type="text"]:read-write{
+    background-color: #ddd;
+    border: none;
+    padding: 0.5em;
+}
+
+input[type="text"]:read-only{
+    background-color: azure;
+}
+
+input[type="text"]:disabled{
+    background-color: darkkhaki;
+}
+
+input[type="text"]::placeholder{
+    color: darkblue;
+}
+
+p:only-child{
+    background-color: darkgoldenrod;
+}
+
+p:read-write{
+    border-bottom: solid 2px darkturquoise;
+}
+
+
+
+
+
+

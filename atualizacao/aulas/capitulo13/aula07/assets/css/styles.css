@@ -1,0 +1,19 @@
+*{
+    font-family: sans-serif;
+}
+
+p::first-letter{
+    color: red;
+    font-size: 1.5rem;
+    float: left;
+    margin-right: 1rem;
+    line-height: 1;
+}
+
+p::first-line{
+    color: red;
+}
+
+::selection{
+    background-color: steelblue;
+}
