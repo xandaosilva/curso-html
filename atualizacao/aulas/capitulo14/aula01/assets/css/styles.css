@@ -37,3 +37,12 @@ p{
 .div5 .destaque{
     transform: skewX(45deg);
 }
+
+.div6 .destaque{
+    transform: translate(0) rotate(110deg);
+    transform-origin: left bottom;
+}
+
+.div7 .destaque{
+    transform: rotate(45deg) translate(0);
+}
