@@ -6,23 +6,37 @@
     --bg-body-color: #ccc;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 body{
     display: flex;
     margin: 0;
     color: var(--text-color);
     background-color: var(--bg-body-color);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    min-height: 100vh;
 }
 
 .main-header{
-    width: 260px;
+    flex: 0 0 26rem;
     background-color: var(--secondary-color);
 }
 
 .main{
     background-color: var(--bg-color);
+    flex: 1;
 }
 
 a{
     color: inherit;
+}
+
+.main, .main-header{
+    font-size: 1.6rem;
+}
+
+.profile-image{
+    max-width: 10rem;
 }
