@@ -25,3 +25,15 @@ p{
     top: -50px;
     left: 50px;
 }
+
+.div3 .destaque{
+    transform: rotate(90deg);
+}
+
+.div4 .destaque{
+    transform: scale(1.5);
+}
+
+.div5 .destaque{
+    transform: skewX(45deg);
+}
