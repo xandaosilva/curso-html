@@ -40,7 +40,7 @@ h2{
 .highlight{
     border-left: solid 1px var(--primary-color);
     font-size: 1.1em;
-    padding-left: 2em;
+    padding: 0 0 0 2em;
     margin-bottom: 2.2em;
 }
 
@@ -134,4 +134,30 @@ a{
     display: flex;
     gap: 3rem;
     padding-top: 1.5rem;
+    justify-content: space-between;
+}
+
+.row > *{
+    flex: 1 0 0%;
+}
+
+.alternate{
+    list-style: none;
+    padding-left: 0;
+}
+
+.alternate li{
+    padding: 0;
+}
+
+.alternate li:not(:last-child){
+    border-bottom: solid 2px var(--bg-body-color);
+}
+
+.roman{
+    list-style: upper-roman;
+}
+
+.list-emoji{
+    list-style-type: "\1F642";
 }
