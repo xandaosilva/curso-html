@@ -6,6 +6,7 @@
     --text-color: #e7e7e7;
     --bg-body-color: #ccc;
     --dark-color: #7b7b7b;
+    --default-gap: 3rem;
 }
 
 html{
@@ -133,7 +134,7 @@ a{
 
 .row{
     display: flex;
-    gap: 3rem;
+    gap: var(--default-gap);
     padding-top: 1.5rem;
     justify-content: space-between;
 }
@@ -191,6 +192,12 @@ input, textarea, select{
     color: var(--text-color);
     font-size: 1.2rem;
     cursor: pointer;
+    padding: 0.8em 1.2em;
+    border-radius: 5px;
+}
+
+.btn + .btn{
+    margin-left: 2rem;
 }
 
 .btn:hover, .btn:focus{
@@ -198,9 +205,24 @@ input, textarea, select{
 }
 
 .form-quiz{
-    width: calc(50% - 1.5rem);
+    width: calc(50% - (var(--default-gap) / 2));
 }
 
 .btn-stroke{
     background-color: transparent;
+}
+
+.btn-big{
+    font-size: 1.6rem;
+}
+
+.btn-full{
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-full + .btn-full{
+    margin-left: 0;
+    margin-top: 2rem;
 }
