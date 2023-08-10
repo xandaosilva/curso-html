@@ -226,3 +226,34 @@ input, textarea, select{
     margin-left: 0;
     margin-top: 2rem;
 }
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table td, .table th{
+    padding: 1.6em;
+}
+
+.table:not(.table-alternate) td, .table:not(.table-alternate) th{
+    border-bottom: solid 2px var(--secondary-color-dark);
+}
+
+.table th{
+    text-transform: uppercase;
+    text-align: left;
+}
+
+.table td:last-child, .table th:last-child{
+    text-align: right;
+}
+
+
+.table-alternate tbody tr:nth-child(odd){
+    background-color: var(--secondary-color);
+}
+
+.table-vertical-lines td:not(:last-child), .table-vertical-lines th:not(:last-child){
+    border-right: solid 1px var(--secondary-color-dark);
+}
