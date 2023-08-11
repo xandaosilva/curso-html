@@ -1,0 +1,27 @@
+body{
+    font-family: sans-serif;
+    background-image: url(../img/tile.png);
+}
+
+.cores{
+    width: 80%;
+    border: dashed 8px black;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.cores p{
+    margin: 0;
+}
+
+section{
+    counter-reset: counter;
+}
+
+.cores{
+    counter-increment: counter;
+}
+
+.cores::before{
+    content: "[ " counter(counter) " ]";
+}
