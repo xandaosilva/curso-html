@@ -1,6 +1,12 @@
 body{
     font-family: sans-serif;
-    background-image: url(../img/tile.png);
+    background-image: linear-gradient(aqua 60%, aquamarine) , url(../img/tile.png);
+    background-attachment: fixed, scroll;
+    background-blend-mode: color;
+}
+
+h1{
+    text-align: center;
 }
 
 .cores{
@@ -24,4 +30,7 @@ section{
 
 .cores::before{
     content: "[ " counter(counter) " ]";
+    display: inline-block;
+    margin-bottom: 16px;
+    font-weight: bold;
 }
