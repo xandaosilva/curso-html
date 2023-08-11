@@ -11,7 +11,7 @@ h1{
 
 .cores{
     width: 80%;
-    border: dashed 8px black;
+    border: dashed 8px color-mix(in srgb, lightblue, blue);
     margin: 20px auto;
     padding: 20px;
 }
