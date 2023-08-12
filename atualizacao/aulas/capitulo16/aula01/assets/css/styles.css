@@ -14,6 +14,7 @@ h1{
     border: dashed 8px color-mix(in srgb, lightblue, blue);
     margin: 20px auto;
     padding: 20px;
+    background-clip: padding-box;
 }
 
 .cores p{
@@ -33,4 +34,36 @@ section{
     display: inline-block;
     margin-bottom: 16px;
     font-weight: bold;
+}
+
+.cores:nth-of-type(2){
+    background-color: lightyellow;
+}
+
+.cores:nth-of-type(3){
+    background-color: hsl(190deg, 100%, 50%);
+}
+
+.cores:nth-of-type(3):hover{
+    background-color: transparent;
+}
+
+.cores:nth-of-type(4){
+    background-image: linear-gradient(70deg, lightblue, transparent), linear-gradient(darkblue, transparent);
+}
+
+.cores:nth-of-type(5){
+    background-image: radial-gradient(ellipse, cyan, darkcyan);
+}
+
+.cores:nth-of-type(6){
+    background-image: radial-gradient(circle, cyan, darkcyan, aquamarine);
+}
+
+.cores:nth-of-type(7){
+    background-image: radial-gradient(circle, cyan, green, darkcyan, aquamarine);
+}
+
+.cores:nth-of-type(8){
+    background-image: radial-gradient(circle at top, coral, lightcoral);
 }
