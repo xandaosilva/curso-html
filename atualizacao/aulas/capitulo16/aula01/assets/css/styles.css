@@ -1,6 +1,25 @@
+:root{
+    --bg-body: linear-gradient(aqua 60%, aquamarine) , url(../img/tile.png);
+    --bg-nth-2: lightyellow;
+    --bg-nth-3: hsl(190deg, 100%, 50%);
+    --bg-nth-4: linear-gradient(70deg, lightblue, transparent), linear-gradient(darkblue, transparent);
+    --bg-nth-5: radial-gradient(ellipse, cyan, darkcyan);
+    --bg-nth-6: radial-gradient(circle, cyan, darkcyan, aquamarine);
+    --bg-nth-7: radial-gradient(circle, cyan, green, darkcyan, aquamarine);
+    --bg-nth-8: radial-gradient(circle at top, coral, lightcoral);
+    --bg-nth-9: radial-gradient(ellipse at 50px 20px, pink, red);
+    --bg-nth-10: radial-gradient(closest-corner at 50px 20px, red, pink);
+    --bg-nth-11: radial-gradient(farthest-corner at 50px 20px, red, pink);
+    --bg-nth-12: radial-gradient(closest-side at 50px 20px, lightgreen, lightblue);
+    --bg-nth-13: radial-gradient(farthest-side at 50px 20px, lightgreen, lightblue);
+    --bg-nth-14: radial-gradient(circle farthest-side at 50px 20px, lightgreen, lightblue);
+    --bg-nth-15: radial-gradient(circle farthest-side at 50px 20px, lightgreen, lightblue), radial-gradient(circle farthest-corner at top right, darkcyan, transparent);
+    --bg-nth-16: radial-gradient(at top, lightgreen, lightblue), radial-gradient(at bottom, darkcyan, transparent);
+}
+
 body{
     font-family: sans-serif;
-    background-image: linear-gradient(aqua 60%, aquamarine) , url(../img/tile.png);
+    background-image: var(--bg-body);
     background-attachment: fixed, scroll;
     background-blend-mode: color;
 }
@@ -37,11 +56,11 @@ section{
 }
 
 .cores:nth-of-type(2){
-    background-color: lightyellow;
+    background-color: var(--bg-nth-2);
 }
 
 .cores:nth-of-type(3){
-    background-color: hsl(190deg, 100%, 50%);
+    background-color: var(--bg-nth-3);
 }
 
 .cores:nth-of-type(3):hover{
@@ -49,21 +68,53 @@ section{
 }
 
 .cores:nth-of-type(4){
-    background-image: linear-gradient(70deg, lightblue, transparent), linear-gradient(darkblue, transparent);
+    background-image: var(--bg-nth-4);
 }
 
 .cores:nth-of-type(5){
-    background-image: radial-gradient(ellipse, cyan, darkcyan);
+    background-image: var(--bg-nth-5);
 }
 
 .cores:nth-of-type(6){
-    background-image: radial-gradient(circle, cyan, darkcyan, aquamarine);
+    background-image: var(--bg-nth-6);
 }
 
 .cores:nth-of-type(7){
-    background-image: radial-gradient(circle, cyan, green, darkcyan, aquamarine);
+    background-image: var(--bg-nth-7);
 }
 
 .cores:nth-of-type(8){
-    background-image: radial-gradient(circle at top, coral, lightcoral);
+    background-image: var(--bg-nth-8);
+}
+
+.cores:nth-of-type(9){
+    background-image: var(--bg-nth-9);
+}
+
+.cores:nth-of-type(10){
+    background-image: var(--bg-nth-10);
+}
+
+.cores:nth-of-type(11){
+    background-image: var(--bg-nth-11);
+}
+
+.cores:nth-of-type(12){
+    background-image: var(--bg-nth-12);
+}
+
+.cores:nth-of-type(13){
+    background-image: var(--bg-nth-13);
+}
+
+.cores:nth-of-type(14){
+    background-image: var(--bg-nth-14);
+}
+
+.cores:nth-of-type(15){
+    background-image: var(--bg-nth-15);
+}
+
+.cores:nth-of-type(16){
+    background-image: var(--bg-nth-16);
 }
