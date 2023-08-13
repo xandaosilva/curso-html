@@ -15,6 +15,8 @@
     --bg-nth-14: radial-gradient(circle farthest-side at 50px 20px, lightgreen, lightblue);
     --bg-nth-15: radial-gradient(circle farthest-side at 50px 20px, lightgreen, lightblue), radial-gradient(circle farthest-corner at top right, darkcyan, transparent);
     --bg-nth-16: radial-gradient(at top, lightgreen, lightblue), radial-gradient(at bottom, darkcyan, transparent);
+    --bg-nth-17: conic-gradient(from 45deg, darkblue, lightblue 70%, blue);
+    --bg-nth-18: conic-gradient(#f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
 }
 
 body{
@@ -117,4 +119,17 @@ section{
 
 .cores:nth-of-type(16){
     background-image: var(--bg-nth-16);
+}
+
+.cores:nth-of-type(17){
+    background-image: var(--bg-nth-17);
+}
+
+.cores:nth-of-type(18){
+    background-image: var(--bg-nth-18);
+    filter: sepia(100%);
+}
+
+.cores:nth-of-type(18):hover{
+    filter: hue-rotate(360deg);
 }
