@@ -18,6 +18,10 @@
     --bg-nth-17: conic-gradient(from 45deg, darkblue, lightblue 70%, blue);
     --bg-nth-18: conic-gradient(#f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00);
     --bg-nth-19: repeating-linear-gradient(to top right, white, black);
+    --bg-nth-20: repeating-radial-gradient(white 0px, white 10px, black 10px, black 20px);
+    --bg-nth-21: repeating-conic-gradient(white 0deg, white 10deg, black 10deg, black 20deg);
+    --bg-nth-22: repeating-conic-gradient(transparent 0deg, transparent 10deg, black 10deg, black 20deg), repeating-radial-gradient(red 0%, transparent, blue 20%);
+    --bg-nth-23: repeating-radial-gradient(red 0%, transparent, blue 20%), repeating-linear-gradient(red, blue);
 }
 
 body{
@@ -137,4 +141,22 @@ section{
 
 .cores:nth-of-type(19){
     background-image: var(--bg-nth-19);
+}
+
+.cores:nth-of-type(20){
+    background-image: var(--bg-nth-20);
+}
+
+.cores:nth-of-type(21){
+    background-image: var(--bg-nth-21);
+}
+
+.cores:nth-of-type(22){
+    background-image: var(--bg-nth-22);
+    background-attachment: fixed, scroll;
+}
+
+.cores:nth-of-type(23){
+    background-image: var(--bg-nth-23);
+    background-attachment: scroll, fixed;
 }
