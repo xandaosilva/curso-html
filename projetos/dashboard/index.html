@@ -12,8 +12,8 @@
 <body>
     <nav class="mainNav">
         <a href="index.html" class="mainNav-linkLogo">Dashboard</a>
-        <div class="menus">
-            <ul class="menu">
+        <div class="mainNav_menus">
+            <ul class="mainNav_menu">
                 <li>
                     <a href="#">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -71,7 +71,7 @@
                     </a>
                 </li>
             </ul>
-            <ul class="menu">
+            <ul class="mainNav_menu">
                 <li>
                     <a href="#">
                         <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -87,7 +87,7 @@
     </nav>
     <header class="topnav">
         <nav>
-            <ul class="topnav_menu">
+            <ul class="topnav_menu menu">
                 <li>
                     <a href="#">
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -112,8 +112,10 @@
             <div class="profile_thumb">
                 <img src="assets/img/perfil.png" alt="Foto de perfil">
             </div>
-            <div>Alexandre Rogério</div>
-            <div>Front-end</div>
+            <div>
+                <div class="profile_name">Alexandre Rogério</div>
+                <div class="profile_rule">Front-end</div>
+            </div>
         </section>
     </header>
     <main>
@@ -122,10 +124,12 @@
                 <span class="description">Announced today</span>
                 <span class="number">235600</span>
             </article>
+            <div class="separated"></div>
             <article>
                 <span class="description">Prepared today</span>
                 <span class="number">16738</span>
             </article>
+            <div class="separated"></div>
             <article>
                 <span class="description">Sorted today</span>
                 <span class="number">286</span>
@@ -135,10 +139,10 @@
         <figure>
             <img src="assets/img/chart1.png" alt="Gráfico 1">
         </figure>
-        <figure>
+        <figure class="grid-half">
             <img src="assets/img/chart2.png" alt="Gráfico 2">
         </figure>
-        <figure>
+        <figure class="grid-half">
             <img src="assets/img/chart3.png" alt="Gráfico 3">
         </figure>
     </main>
